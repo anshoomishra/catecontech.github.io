@@ -1,0 +1,88 @@
+@import url("./common.css");
+@import url("./variable.css");
+@import url("./font.css");
+
+body{
+    line-height: 1.4;
+    font-family: 'Poppins', sans-serif;
+}
+/* ------------ Navigation Bar -------------*/
+.header{
+    background-color: var(--white-smoke);
+}
+.navbar{
+    font-size: 1.5rem;
+    padding: 1rem 2rem;
+    font-family: 'Poppins', sans-serif;
+}
+
+.logo{
+    font-size: 2rem;
+    font-weight: bold;
+    color: var(--primary-color);
+    flex:1;
+    flex-basis: 25px;
+    
+    
+}
+.nav__items{
+    flex:3;
+}
+.nav_list{
+    list-style: none;
+   
+}
+/* .nav_list .item{
+    margin-left: 4.5rem;
+} */
+
+.nav_list .item a{
+    font-size: 1.2rem;
+    color: var(--light);
+}
+
+.resume{
+    flex:1;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    /* border: 2px solid; */
+    /* align-self: flex-end; */
+}
+
+.resume__button{
+    background-color: var(--primary-color);
+    padding: 0.5rem 1rem;
+    border-radius: 0.2rem;
+}
+
+/* ----------- main section ------------ */
+
+.main{
+    height: calc(100vh - 45.33px) ;
+    
+}
+.small__intro{
+    flex: 1;
+}
+.hello__there{
+    font-size: 6rem;
+    font-weight: 600;
+    color: var(--secondary-color);
+}
+.i_am{
+    font-size: 3rem;
+    font-weight: 200;
+    color: var(--primary-color);
+}
+.anshu__mishra{
+    font-size: 6rem;
+    font-weight: 800;
+    color: var(--tirtiary-color);
+}
+.small__intro__image
+{
+    border: 2px solid;
+    /* width: 50%; */
+    flex: 1;
+}
