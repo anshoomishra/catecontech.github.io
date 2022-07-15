@@ -25,6 +25,11 @@ body{
     
     
 }
+.fs_engineer{
+    font-size: 2.4rem;
+    font-weight: lighter;
+    color: var(--tirtiary-color);
+}
 .nav__items{
     flex:3;
 }
@@ -85,4 +90,67 @@ body{
     border: 2px solid;
     /* width: 50%; */
     flex: 1;
+}
+
+/* ------------- About section ---------------- */
+
+.about{
+    height: 100vh;
+    margin-bottom: 6rem;
+}
+.about__title{
+    font-size: 4.5rem;
+    color: var(--extra-light);
+    text-align: center;
+}
+.about__info{
+    margin: 0 6rem;
+    padding-top:2rem;
+    display: flex;
+    align-items:center;
+    gap: 3;
+    justify-content: center;
+}
+
+.intro__title{
+    font-size: 4.3rem;
+    color: var(--primary-color);
+    margin-bottom: 2rem;
+    font-weight: 800;
+}
+.intro_description{
+    font-size: 2rem;
+    font-weight: 600;
+    color: var(--secondary-color);
+    margin-bottom: 2rem;
+}
+.about__other_activities{
+    font-size: 2.2rem;
+    font-weight: 400;
+    color: var(--extra-light);
+    margin-bottom: 2rem;
+}
+.about__other_activities__list{
+    line-height: 1.4rem;
+}
+
+.about__other_activities__list ul{
+    line-height: 1.4rem;
+    list-style: none;
+    /* margin-left: 10rem; */
+}
+.about__other_activities__list ul li{
+    line-height: 3.4rem;
+    list-style: none;
+    font-size: 1.6rem;
+    padding: 5px 10px;
+    background-color: #EEEEEE;
+    border: 1px solid #DDDDDD;
+}
+.left__info{
+    flex:1;
+}
+
+.right__info{
+    flex:1;
 }
